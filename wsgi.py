@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    x = [randint(0,9) for p in range(0,9876)]
+    x = [randint(0,9) for p in range(0,98)]
     return x
 
 if __name__ == "__main__":
